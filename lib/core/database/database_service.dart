@@ -34,7 +34,7 @@ class DatabaseService {
   Future<Database> _initializeDatabase() async {
     final databaseDirPath = await getDatabasesPath();
     final databasePath = join(databaseDirPath, _databaseName);
-
+https://github.com/medherence-health/mobile_view.git
     return await openDatabase(
       databasePath,
       version: _databaseVersion,
